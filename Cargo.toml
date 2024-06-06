@@ -1,7 +1,13 @@
 [package]
 name = "yahboom_gps"
+authors = ["Yen Harvey <YenHarvey@yenharvey.com>"]
 version = "0.1.0"
 edition = "2021"
+description = "A Rust library for initializing and reading GPS data from a Yahboom GPS module via a serial port."
+license = "Apache-2.0"
+repository = "https://github.com/YenHarvey/yahboom_gps"
+homepage = "https://github.com/YenHarvey/yahboom_gps"
+documentation = "https://docs.rs/yahboom_gps"
 
 [dependencies]
 anyhow = "1.0.86"
